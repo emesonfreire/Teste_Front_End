@@ -26,6 +26,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.bg-header{
+  background-color: white;
+}
 .cadastro{
   position: absolute;
   width: 1920px;
