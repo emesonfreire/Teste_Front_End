@@ -114,25 +114,27 @@ class App extends Component {
 
           </ul>
         </section>
-
-
+          <section className="container ">
+            <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label"></label>
+             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome"/>
+            </div>
+            <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label"></label>
+             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu email"/>
+            </div>
+          </section>
+          
         <footer className="container col-12 pt-3 footer  ">
-          <container className="container col-6 col-md-2  d-flex justify-content-around">
-            
-          </container>
+          
             <p><strong className=" container col titulo text-justify ">Localização</strong></p>
             <p className="endereco">Avenida Andrômeda, 2000. Bloco 6 e 8 Alphavile SP
                brasil@corebiz.ag
               +55 11 3090 1039
             </p>
-              <div className="container col cadastro">
-              <strong className="titulo-cadastro">Participe de nossas news com promoções e novidades!</strong>
-
-              <input type="text" id="nome-cadastro" placeholder="Digite seu nome"/>
-              <input type="email" name="Digite seu email" id="email" placeholder="Digite seu email" />
-              </div>
-              <button className="container col form-button" type="button" href=""><i class="fas fa-envelope">     ENTRE EM CONTATO</i></button>
-              <button className="container col form-button1" type="button" href=""><i class="fas fa-headphones-alt">       FALE COM O NOSSO CONSULTOR ONLINE</i></button>
+              
+              <button className="container  form-button" type="button" href=""><i class="fas fa-envelope">     ENTRE EM CONTATO</i></button>
+              <button className="container form-button1" type="button" href=""><i class="fas fa-headphones-alt">       FALE COM O NOSSO CONSULTOR ONLINE</i></button>
               
         </footer>
 

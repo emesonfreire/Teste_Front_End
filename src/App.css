@@ -28,14 +28,15 @@
 }
 .cadastro{
   position: absolute;
-width: 1920px;
-height: 146px;
-left: 0px;
-bottom: 222px;
-
-/* color-bg */
-
-background: #F2F2F2;
+  width: 1920px;
+  height: 146px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  
+  /* color-bg */
+  
+  background: #F2F2F2;
 }
 .titulo-cadastro{
   /* Participe de nossas news com promoções e novidades! */
@@ -63,7 +64,27 @@ align-items: center;
 
 color: #333333;
 }
+.nome-cadastro{
+  position: absolute;
+left:auto;
+right: auto;
+top: auto;
+bottom: 10px;
 
+background: #FFFFFF;
+border-radius: 5px;
+}
+.email{
+  position: absolute;
+  left:auto;
+  right: auto;
+  top: auto;
+  bottom: 10px;
+  
+  background: #FFFFFF;
+  border-radius: 5px;
+  
+}
 .footer {
   /* position: relative;fixed */
   position: relative;
