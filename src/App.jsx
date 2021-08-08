@@ -115,13 +115,14 @@ class App extends Component {
           </ul>
         </section>
           <section className="container ">
-            <div class="mb-3">
-             <label for="exampleFormControlInput1" class="form-label"></label>
+            <div className="mb-3">
+             <label  method="POST" action="processa.php" for="exampleFormControlInput1" className="form-label">Participe de nossas news com promoções e novidades!</label>
              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome"/>
             </div>
-            <div class="mb-3">
+            <div className="mb-3">
              <label for="exampleFormControlInput1" class="form-label"></label>
-             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu email"/>
+             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Digite seu email"/>
+             <input type="submit" value="Enviar"/>
             </div>
           </section>
           
