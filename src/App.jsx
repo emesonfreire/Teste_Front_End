@@ -78,7 +78,11 @@ class App extends Component {
           </div>
 
         </section>
-=======
+=========================================================================
+=========================================================================
+
+
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         <section className="container p-3 mt-5 mb-5">
@@ -100,6 +104,7 @@ class App extends Component {
                     <h5><strong>{photo.price.toFixed(2).toLocaleString('pt-br',{Style: 'currency', currency: 'BRL'})}</strong></h5>
                     <p>ou 9 X 28,87 </p>
                     <button type="button">COMPRAR</button> 
+                    
                     </div>
                   </li>
                 )
@@ -113,13 +118,17 @@ class App extends Component {
 
         <footer className="container col-12 pt-3 footer  ">
           <container className="container col-6 col-md-2  d-flex justify-content-around">
-
-            <p><strong className=" container col endereco text-justify ">Localização</strong></p>
-            Avenida Andrômeda, 2000. Bloco 6 e 8 Alphavile SP
-              brasil@corebiz.ag
-              +55 11 3090 1039
             
           </container>
+            <p><strong className=" container col titulo text-justify ">Localização</strong></p>
+            <p className="endereco">Avenida Andrômeda, 2000. Bloco 6 e 8 Alphavile SP
+               brasil@corebiz.ag
+              +55 11 3090 1039
+            </p>
+
+              <button className="form-button" type="button" href="">ENTRE EM CONTATO</button>
+              <button className="form-button1" type="button" href="">FALE COM O NOSSO CONSULTOR ONLINE</button>
+              
         </footer>
 
       </div>

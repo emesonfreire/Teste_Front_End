@@ -38,8 +38,8 @@ bottom: 0px;
 
 background: #000000;
 }
-.endereco{
-  position: relative;
+.titulo{
+  position: absolute;
 width: 238px;
 height: 192px;
 left: 280px;
@@ -53,6 +53,44 @@ line-height: 12px;
 /* or 92% */
 
 
-color: #851010;
+color: #fdfdfd;
 }
+.endereco{
+  position: absolute;
+width: 238px;
+height: 72px;
+left: 293px;
+bottom: 37px;
 
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 12px;
+/* or 92% */
+
+
+color: #ffffff;
+
+}
+.form-button{
+  position: absolute;
+width: 195px;
+height: 38x;
+left: 868px;
+bottom: 128px;
+background: #FFFFFF;
+border-radius: 5px;
+
+
+}
+.form-button1{
+  position: absolute;
+  width: 195px;
+  height: 58px;
+  left: 868px;
+  bottom: 65px;
+  
+  background: #FFFFFF;
+  border-radius: 5px;
+}
