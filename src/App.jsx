@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -23,28 +22,27 @@ class App extends Component {
 
         <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-          <a className="navbar-brand" href="#">coreBi</a>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainToggler"
             aria-controls="navbarMainToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
+          <a className="navbar-brand" href="#"> corebiz</a>
 
+              <span className="input-group-text"><i class="fas fa-search"></i></span>
+              <input type="text" className="form-control mr-1 " placeholder="O que está procurando?"/>
 
           <section className="collapse navbar-collapse" id="navbarMainToggler">
             <div className="navbar-nav ml-auto pr-3">
-              <a className="nav-item nav-link" href="#">Home</a>
-              <a className="nav-item nav-link" href="#">Channel</a>
-              <a className="nav-item nav-link" href="#">Login</a>
             </div>
             <form className="form-inline">
               <div className="input-group">
-                <div className="input-group-prepend">
-                  <span className="input-group-text">@</span>
+              <div className="input-group-prepend">
+              <a className="nav-item nav-link" href="#"><p>Minha conta</p></a>
+                 
                 </div>
-                <input type="text" className="form-control mr-1" placeholder="Username" />
               </div>
-              <button className="btn btn-outline-success">Login</button>
+              
             </form>
           </section>
         </nav>
@@ -114,9 +112,13 @@ class App extends Component {
 
 
         <footer className="container col-12 pt-3 footer  ">
-          <container className="container col-6 col-md-2 endereco d-flex justify-content-around">
-            <strong className=" container col">Localização</strong>
-           
+          <container className="container col-6 col-md-2  d-flex justify-content-around">
+
+            <p><strong className=" container col endereco text-justify ">Localização</strong></p>
+            Avenida Andrômeda, 2000. Bloco 6 e 8 Alphavile SP
+              brasil@corebiz.ag
+              +55 11 3090 1039
+            
           </container>
         </footer>
 
