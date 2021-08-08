@@ -37,6 +37,32 @@ bottom: 222px;
 
 background: #F2F2F2;
 }
+.titulo-cadastro{
+  /* Participe de nossas news com promoções e novidades! */
+
+
+position:absolute;
+width: 531px;
+height: 22px;
+left: 394px;
+bottom: 122px;
+
+/* font-first--22--bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 22px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+
+/* color-third */
+
+color: #333333;
+}
 
 .footer {
   /* position: relative;fixed */

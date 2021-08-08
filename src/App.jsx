@@ -126,7 +126,7 @@ class App extends Component {
               +55 11 3090 1039
             </p>
               <div className="container col cadastro">
-              Participe de nossas news com promoções e novidades!
+              <strong className="titulo-cadastro">Participe de nossas news com promoções e novidades!</strong>
 
               <input type="text" id="nome-cadastro" placeholder="Digite seu nome"/>
               <input type="email" name="Digite seu email" id="email" placeholder="Digite seu email" />
