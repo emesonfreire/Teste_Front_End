@@ -125,9 +125,14 @@ class App extends Component {
                brasil@corebiz.ag
               +55 11 3090 1039
             </p>
+              <div className="container col cadastro">
+              Participe de nossas news com promoções e novidades!
 
-              <button className="form-button" type="button" href="">ENTRE EM CONTATO</button>
-              <button className="form-button1" type="button" href="">FALE COM O NOSSO CONSULTOR ONLINE</button>
+              <input type="text" id="nome-cadastro" placeholder="Digite seu nome"/>
+              <input type="email" name="Digite seu email" id="email" placeholder="Digite seu email" />
+              </div>
+              <button className="container col form-button" type="button" href=""><i class="fas fa-envelope">     ENTRE EM CONTATO</i></button>
+              <button className="container col form-button1" type="button" href=""><i class="fas fa-headphones-alt">       FALE COM O NOSSO CONSULTOR ONLINE</i></button>
               
         </footer>
 

@@ -26,7 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.cadastro{
+  position: absolute;
+width: 1920px;
+height: 146px;
+left: 0px;
+bottom: 222px;
 
+/* color-bg */
+
+background: #F2F2F2;
+}
 
 .footer {
   /* position: relative;fixed */
